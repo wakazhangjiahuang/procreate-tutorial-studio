@@ -5,12 +5,16 @@
       "id": "tutorial_kb",
       "repository": "wakazhangjiahuang/procreate-tutorial-studio",
       "url": "https://github.com/wakazhangjiahuang/procreate-tutorial-studio",
-      "status": "PREPARED_NOT_UPLOADED",
-      "ref": null,
+      "status": "REMOTE_VERIFIED",
+      "ref": "7b90e66fa69980027b249d275ab33587b7a08eec",
       "manifest_path": "KB-MANIFEST.json",
       "purpose": "Canonical curated rules/templates; current bundled release is usable offline.",
-      "fallback": "BUNDLED_RELEASE",
-      "license_state": "USER_OWNED_WITH_THIRD_PARTY_NOTICES"
+      "fallback": "BUNDLED_RELEASE_1.1.1",
+      "license_state": "USER_OWNED_WITH_THIRD_PARTY_NOTICES",
+      "verified_at": "2026-10-11",
+      "remote_release": "1.1.0",
+      "manifest_blob_sha": "8d83e6223ace080385b2029ee030243a69fba7f1",
+      "verification_scope": "Fixed commit tree; 30 blob identities matched distributed bytes; all 25 Manifest asset hashes verified; SKILL, registry and workbook fetched directly."
     },
     {
       "id": "brush_kb",

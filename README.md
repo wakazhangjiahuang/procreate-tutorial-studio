@@ -1,8 +1,8 @@
 # Procreate 插画画法教程工作室
 
-版本：**1.1.0**。建议仓库：`wakazhangjiahuang/procreate-tutorial-studio`，可见性选择 **Private**。
+版本：**1.1.1**。建议仓库：`wakazhangjiahuang/procreate-tutorial-studio`，可见性选择 **Private**。
 
-这是与账号当前部署版本一致的 Skill 源码和知识资产包。用于将一张用户原稿转化为十张独立中文 Procreate / 手绘画法过程图，以及一份详细资料表格。账号中的插件可以使用随包资产运行；本仓库上传完成后，可作为版本化知识来源。
+这是与账号当前部署版本一致的 Skill 源码和知识资产包。用于将一张用户原稿转化为十张独立中文 Procreate / 手绘画法过程图，以及一份详细资料表格。账号中的插件可以使用随包资产运行；本仓库已完成上传核验，作为版本化知识来源；上传基线固定为 `7b90e66fa69980027b249d275ab33587b7a08eec`。
 
 ## 上传到 GitHub
 
@@ -10,7 +10,7 @@
 2. 解压下载的 ZIP，进入里面的 `procreate-tutorial-studio` 文件夹。
 3. 将文件夹**里面的全部文件与目录**上传至仓库根目录，不要把 ZIP 本身作为知识资料上传，也不要额外套一层同名目录。
 4. 确认仓库根目录直接出现 `KB-MANIFEST.json`、`SKILL.md`、`requirements.txt`，并保留 `assets/`、`references/`、`scripts/`、`sources/`、`LICENSES/` 和 `agents/` 的原有路径。
-5. 上传完成后，把仓库链接提供给助手。核实真实文件和提交 SHA 后，再同步 `sources/REGISTRY.json` 与部署版。当前 `PREPARED_NOT_UPLOADED` 是交付时状态，不能提前改成已读取远端；不要猜测 commit SHA。
+5. 上传完成后，把仓库链接提供给助手。核实真实文件和提交 SHA 后，再同步 `sources/REGISTRY.json` 与部署版。本次已核实的来源状态为 `REMOTE_VERIFIED`，部署版 v1.1.1 固定读取上传基线；更新资料时重新核查真实 commit SHA。
 
 仓库建议地址：https://github.com/wakazhangjiahuang/procreate-tutorial-studio
 

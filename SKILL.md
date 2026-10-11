@@ -5,7 +5,7 @@ description: 将用户插画原稿制作成十张独立中文 Procreate/手绘�
 
 # Procreate 插画画法教程工作室
 
-按 v1.1.0 执行，独立运行，不依赖 Skill Box。
+按 v1.1.1 执行，独立运行，不依赖 Skill Box。
 
 ## 交付约束
 

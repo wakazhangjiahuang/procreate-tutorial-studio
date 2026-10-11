@@ -2,10 +2,10 @@
   "schema_version": "1.1.0",
   "resource_id": "procreate-tutorial-studio",
   "repository": "wakazhangjiahuang/procreate-tutorial-studio",
-  "repository_status": "PREPARED_NOT_UPLOADED",
-  "release": "1.1.0",
-  "ref": null,
-  "ref_policy": "Bundled hashes are authoritative until upload; resolve a real remote commit before reading remote assets.",
+  "repository_status": "REMOTE_VERIFIED",
+  "release": "1.1.1",
+  "ref": "7b90e66fa69980027b249d275ab33587b7a08eec",
+  "ref_policy": "Remote snapshot is pinned to the verified uploaded commit. Bundled v1.1.1 includes deployment routing metadata; remote v1.1.0 PREPARED markers are historical and must not reset this route.",
   "entrypoints": {
     "tutorial": [
       "references/artwork-and-evidence.md",
@@ -139,7 +139,7 @@
     {
       "id": "references/source-routing.md",
       "path": "references/source-routing.md",
-      "sha256": "57f37ea3762649151311c9fc75e55d46719f07c937b262a52fbb1e1e5828b1e4",
+      "sha256": "23657c8770fb40cb01c338104f8ea3de0dbbd0bff7d4edf479d8284b55310419",
       "task_tags": [
         "tutorial",
         "routing"
@@ -296,7 +296,7 @@
     {
       "id": "sources/REGISTRY.json",
       "path": "sources/REGISTRY.json",
-      "sha256": "b0ccba1ebc05e313b63d68ee12adc9713fd069a13d6ea789550083386ecce7dd",
+      "sha256": "b631d92a6c7024ac45cf7a40e42601ffc0b92a3f95541c56993faa2b03707d06",
       "task_tags": [
         "routing"
       ],
