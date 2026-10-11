@@ -1,0 +1,96 @@
+{
+  "audit_date": "2026-10-11",
+  "records": [
+    {
+      "url": "https://github.com/wakazhangjiahuang/brush/blob/5c9d4e469bdedd31390bc1574fb9dcc4db85f043/knowledge/COMPLEXITY-RULES.json",
+      "git_blob_sha": "38caa18ac6b085e6ab20837f84cd4f724cc287c2",
+      "sha256_of_retrieved_text": "fce90d8e8d481639443bdd9a7730aa503651d97a38067889bf8f9a8efcdc99c2",
+      "read_scope": "Listed UTF-8 file only; no native brush or video trial."
+    },
+    {
+      "url": "https://github.com/wakazhangjiahuang/brush/blob/5c9d4e469bdedd31390bc1574fb9dcc4db85f043/knowledge/PROCESS-STAGE-TAXONOMY.json",
+      "git_blob_sha": "103948bec546f1a04727f3808fff08ef31354d80",
+      "sha256_of_retrieved_text": "9e7e053aee91cadb9068870faeeef1d0f5a2e517876bf4f176729b084fc47394",
+      "read_scope": "Listed UTF-8 file only; no native brush or video trial."
+    },
+    {
+      "url": "https://github.com/JimLiu/baoyu-skills/blob/1567581c26ec29f4216c6e6835415bf30343b0e3/skills/baoyu-xhs-images/references/workflows/outline-template.md",
+      "git_blob_sha": "1ca40b7d74374f1e065cbc50bf17660f906c156c",
+      "sha256_of_retrieved_text": "ad140ce299bf611d074a67cab4bc0e82f350b21d4c9b7d880605926b3ad6a020",
+      "read_scope": "Listed UTF-8 file only."
+    },
+    {
+      "url": "https://github.com/JimLiu/baoyu-skills/blob/1567581c26ec29f4216c6e6835415bf30343b0e3/skills/baoyu-xhs-images/references/workflows/prompt-assembly.md",
+      "git_blob_sha": "1e275d5cac5e9dea7bde798dd9ea3e292feb020a",
+      "sha256_of_retrieved_text": "c2a8f59650f132f0cee440b3efc7e5868051725283613441fffa82bf6e88d371",
+      "read_scope": "Listed UTF-8 file only."
+    },
+    {
+      "url": "https://github.com/JimLiu/baoyu-skills/blob/1567581c26ec29f4216c6e6835415bf30343b0e3/LICENSE",
+      "git_blob_sha": "9f2cc0d74570c5841f02b639593d12a70dc7dc65",
+      "sha256_of_retrieved_text": "601839401f6ce68b7a8aec0f7ba247ab8ef0848113378220bec4b2615cc84ee7",
+      "read_scope": "Listed UTF-8 file only."
+    },
+    {
+      "url": "https://github.com/psd-tools/psd-tools/blob/b58704c1c9c9b2459f961560b1e368dfb102b513/docs/usage.rst",
+      "git_blob_sha": "4ceec5678103037510901f79a32ce4be4363989c",
+      "sha256_of_retrieved_text": "87fac2327bbab9ec8f492b83b60089a720a3d2629845944ab78ef93bde1524e5",
+      "read_scope": "Listed UTF-8 file only."
+    },
+    {
+      "url": "https://github.com/psd-tools/psd-tools/blob/b58704c1c9c9b2459f961560b1e368dfb102b513/LICENSE",
+      "git_blob_sha": "0ddde68b9eaf78a88f1b990f5bc2fa2aff67c67f",
+      "sha256_of_retrieved_text": "79f7e019a30b97542cce6f6482a75ba26771b4204c374fec305dc8cf558d137f",
+      "read_scope": "Listed UTF-8 file only."
+    },
+    {
+      "url": "https://github.com/wakazhangjiahuang/brush/blob/5c9d4e469bdedd31390bc1574fb9dcc4db85f043/knowledge/BRUSH-CAPABILITY-REGISTRY.json",
+      "git_blob_sha": "6d7bee0ae61546f2e047a3a842496ff8b4c7f0ea",
+      "sha256_of_retrieved_text": "8321d353a8c3109b5437d8e260ff2b035e4d12085f25dcc2a530fc1d4527fb81",
+      "read_scope": "Listed UTF-8 file only; no native brush or video trial."
+    },
+    {
+      "url": "https://github.com/wakazhangjiahuang/brush/blob/5c9d4e469bdedd31390bc1574fb9dcc4db85f043/knowledge/MATERIAL-TAXONOMY.json",
+      "git_blob_sha": "ebbe006cb4a9abcdaf759adecb29c7d4f478595a",
+      "sha256_of_retrieved_text": "ebf64889fd58bc6011f38fcdc26ad3b852d8e32da84459c7acf1f450ff0bf255",
+      "read_scope": "Listed UTF-8 file only; no native brush or video trial."
+    },
+    {
+      "url": "https://github.com/wakazhangjiahuang/brush/blob/5c9d4e469bdedd31390bc1574fb9dcc4db85f043/knowledge/RUNTIME-CONTRACT.md",
+      "git_blob_sha": "5898d409e7bcd3879c0c1c74ca4bafe631298315",
+      "sha256_of_retrieved_text": "7fbffcb54f8a40febdb91dcfbcc1441471a658395f12e7e2caf95b40076ab32c",
+      "read_scope": "Listed UTF-8 file only; no native brush or video trial."
+    }
+  ],
+  "rebuilder_local": [
+    {
+      "path": "/root/.codex/skills/remote-skills/procreate-pattern-process-rebuilder/scripts/inspect_input.py",
+      "sha256": "24a4d213e2f5283c0999e896217c2c3e47a6bae269890e4c60945728fe4f82dc"
+    },
+    {
+      "path": "/root/.codex/skills/remote-skills/procreate-pattern-process-rebuilder/scripts/_contract.py",
+      "sha256": "9b95e8021292a725edb674817d47e9dcfb3efad99752b4fea1f6102575fa9353"
+    },
+    {
+      "path": "/root/.codex/skills/remote-skills/procreate-pattern-process-rebuilder/scripts/verify_frames.py",
+      "sha256": "e103eca24f66a45850aa9aab8b806754a43307185b8222c4279660bd838b4d03"
+    },
+    {
+      "path": "/root/.codex/skills/remote-skills/procreate-pattern-process-rebuilder/scripts/build_storyboard.py",
+      "sha256": "8a072d8a71817ba2f01cb6e004e051d1bdce61bb0260baacb83a5dbd52711fa1"
+    },
+    {
+      "path": "/root/.codex/skills/remote-skills/procreate-pattern-process-rebuilder/scripts/package_delivery.py",
+      "sha256": "0d935243dc13433825301480f7617a39132e278fbda932974d7941f80df1896c"
+    },
+    {
+      "path": "/root/.codex/skills/remote-skills/procreate-pattern-process-rebuilder/references/storyboard-schema.md",
+      "sha256": "929520cc36bfd673470016b97b3a6d9e2d2076655f5ad07067b953df6db14298"
+    }
+  ],
+  "limitations": [
+    "No target artwork was uploaded for end-to-end art testing.",
+    "No iPad import/drawing trial.",
+    "brush root LICENSE path returned 404; no open redistribution license established."
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Procreate 插画画法教程工作室"
+  short_description: "从插画原稿制作十张中文白底画法步骤图，并交付详细风格与操作表格"
+  default_prompt: "使用 $procreate-tutorial-studio，将我上传的原稿制作成十张独立中文画法过程图，按样例组织版式，交付十图与一份详细表格的压缩包。"

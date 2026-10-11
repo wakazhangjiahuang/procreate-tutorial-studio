@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.1.0",
+  "sources": [
+    {
+      "id": "tutorial_kb",
+      "repository": "wakazhangjiahuang/procreate-tutorial-studio",
+      "url": "https://github.com/wakazhangjiahuang/procreate-tutorial-studio",
+      "status": "PREPARED_NOT_UPLOADED",
+      "ref": null,
+      "manifest_path": "KB-MANIFEST.json",
+      "purpose": "Canonical curated rules/templates; current bundled release is usable offline.",
+      "fallback": "BUNDLED_RELEASE",
+      "license_state": "USER_OWNED_WITH_THIRD_PARTY_NOTICES"
+    },
+    {
+      "id": "brush_kb",
+      "repository": "wakazhangjiahuang/brush",
+      "url": "https://github.com/wakazhangjiahuang/brush",
+      "status": "FILES_READ",
+      "ref": "5c9d4e469bdedd31390bc1574fb9dcc4db85f043",
+      "manifest_path": "KB-MANIFEST.json",
+      "selected_paths": [
+        "knowledge/PROCESS-STAGE-TAXONOMY.json",
+        "knowledge/MATERIAL-TAXONOMY.json",
+        "knowledge/COMPLEXITY-RULES.json",
+        "knowledge/BRUSH-CAPABILITY-REGISTRY.json",
+        "knowledge/RUNTIME-CONTRACT.md"
+      ],
+      "purpose": "Stage/material/brush evidence on demand.",
+      "adoption": "METHOD_ADAPTED",
+      "license_state": "NO_ROOT_LICENSE_FOUND; THIRD_PARTY_ASSETS_NOT_REDISTRIBUTED",
+      "fallback": "Curated process-and-brush rule; no fabricated exact native name."
+    },
+    {
+      "id": "rebuilder_core",
+      "repository": null,
+      "url": null,
+      "status": "LOCAL_FILES_READ_REMOTE_URL_UNRESOLVED",
+      "ref": null,
+      "purpose": "Evidence routes, input inspector, workbook/package patterns.",
+      "adoption": "OWNED_SKILL_ADAPTED",
+      "fallback": "Bundled rewritten code/rules; local absolute paths are audit provenance only."
+    },
+    {
+      "id": "layout_upstream",
+      "repository": "JimLiu/baoyu-skills",
+      "url": "https://github.com/JimLiu/baoyu-skills",
+      "ref": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "status": "FILES_READ",
+      "selected_paths": [
+        "skills/baoyu-xhs-images/references/workflows/outline-template.md",
+        "skills/baoyu-xhs-images/references/workflows/prompt-assembly.md",
+        "LICENSE"
+      ],
+      "purpose": "Adapted page/content/prompt decomposition.",
+      "adoption": "MIT_DOCUMENTATION_ADAPTED",
+      "license_state": "MIT",
+      "fallback": "Bundled adapted templates; do not execute whole upstream skill."
+    },
+    {
+      "id": "psd_dependency",
+      "repository": "psd-tools/psd-tools",
+      "url": "https://github.com/psd-tools/psd-tools",
+      "ref": "b58704c1c9c9b2459f961560b1e368dfb102b513",
+      "status": "DOCS_READ_RUNTIME_NOT_INSTALLED",
+      "selected_paths": [
+        "docs/usage.rst",
+        "LICENSE"
+      ],
+      "purpose": "Conditional PSD fact reader.",
+      "adoption": "LIBRARY_API",
+      "license_state": "MIT",
+      "fallback": "Exported layered PNGs.",
+      "runtime_version": null
+    }
+  ]
+}

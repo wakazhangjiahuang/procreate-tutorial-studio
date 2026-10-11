@@ -1,0 +1,331 @@
+{
+  "schema_version": "1.1.0",
+  "resource_id": "procreate-tutorial-studio",
+  "repository": "wakazhangjiahuang/procreate-tutorial-studio",
+  "repository_status": "PREPARED_NOT_UPLOADED",
+  "release": "1.1.0",
+  "ref": null,
+  "ref_policy": "Bundled hashes are authoritative until upload; resolve a real remote commit before reading remote assets.",
+  "entrypoints": {
+    "tutorial": [
+      "references/artwork-and-evidence.md",
+      "references/layout-and-text.md",
+      "references/process-and-brush.md",
+      "references/progression-gates.md",
+      "references/review-and-delivery.md",
+      "references/data-contract.md",
+      "references/source-routing.md",
+      "assets/step-plan.template.json",
+      "assets/page-prompt.template.md",
+      "assets/review.template.json"
+    ],
+    "analysis": [
+      "references/artwork-and-evidence.md",
+      "scripts/inspect_input.py",
+      "scripts/_contract.py"
+    ],
+    "planning": [
+      "references/process-and-brush.md",
+      "references/progression-gates.md",
+      "references/layout-and-text.md",
+      "assets/step-plan.template.json",
+      "scripts/validate_plan.py",
+      "scripts/_contract.py"
+    ],
+    "production": [
+      "assets/page-prompt.template.md",
+      "references/layout-and-text.md",
+      "assets/review.template.json"
+    ],
+    "review": [
+      "references/review-and-delivery.md",
+      "references/progression-gates.md",
+      "assets/review.template.json",
+      "scripts/verify_pages.py",
+      "scripts/_contract.py"
+    ],
+    "delivery": [
+      "references/data-contract.md",
+      "references/review-and-delivery.md",
+      "assets/原稿风格与画法资料.template.xlsx",
+      "scripts/build_workbook.py",
+      "scripts/package_delivery.py",
+      "scripts/verify_pages.py",
+      "scripts/_contract.py"
+    ],
+    "routing": [
+      "references/source-routing.md",
+      "sources/REGISTRY.json",
+      "scripts/select_assets.py",
+      "scripts/_contract.py"
+    ],
+    "psd": [
+      "references/artwork-and-evidence.md",
+      "scripts/inspect_psd.py",
+      "scripts/_contract.py"
+    ]
+  },
+  "assets": [
+    {
+      "id": "references/artwork-and-evidence.md",
+      "path": "references/artwork-and-evidence.md",
+      "sha256": "a446381ad8ba17f752812cda523c41f74f1deb76720910d3c53337c17e380cdd",
+      "task_tags": [
+        "tutorial",
+        "analysis",
+        "psd"
+      ],
+      "required": true,
+      "source": "CURATED_RELEASE_1.1.0"
+    },
+    {
+      "id": "references/data-contract.md",
+      "path": "references/data-contract.md",
+      "sha256": "5c674af1d9613f270a1285770aad01e2c07cf9ad730e0a7471e16dc83cf2d95e",
+      "task_tags": [
+        "tutorial",
+        "delivery"
+      ],
+      "required": true,
+      "source": "CURATED_RELEASE_1.1.0"
+    },
+    {
+      "id": "references/layout-and-text.md",
+      "path": "references/layout-and-text.md",
+      "sha256": "694f0f8a56dbcc4ea0a56f0e6957570551e7746b18bc4bde2194d3e02c4851e0",
+      "task_tags": [
+        "tutorial",
+        "planning",
+        "production"
+      ],
+      "required": true,
+      "source": "CURATED_RELEASE_1.1.0"
+    },
+    {
+      "id": "references/process-and-brush.md",
+      "path": "references/process-and-brush.md",
+      "sha256": "508272a1edc9963a929a3456cc854e7449c4ec1ebf032338b488e9fcbe9c0fde",
+      "task_tags": [
+        "tutorial",
+        "planning"
+      ],
+      "required": true,
+      "source": "CURATED_RELEASE_1.1.0"
+    },
+    {
+      "id": "references/progression-gates.md",
+      "path": "references/progression-gates.md",
+      "sha256": "8083805f9f692d7b9c810d50ceb010bea257f7ae3bc9896db03a5836922e623a",
+      "task_tags": [
+        "tutorial",
+        "planning",
+        "review"
+      ],
+      "required": true,
+      "source": "CURATED_RELEASE_1.1.0"
+    },
+    {
+      "id": "references/review-and-delivery.md",
+      "path": "references/review-and-delivery.md",
+      "sha256": "16b13910c5490ea91f5dbe96508de75cd38ccb2e47f7f941cae9fe797039d897",
+      "task_tags": [
+        "tutorial",
+        "review",
+        "delivery"
+      ],
+      "required": true,
+      "source": "CURATED_RELEASE_1.1.0"
+    },
+    {
+      "id": "references/source-routing.md",
+      "path": "references/source-routing.md",
+      "sha256": "57f37ea3762649151311c9fc75e55d46719f07c937b262a52fbb1e1e5828b1e4",
+      "task_tags": [
+        "tutorial",
+        "routing"
+      ],
+      "required": true,
+      "source": "CURATED_RELEASE_1.1.0"
+    },
+    {
+      "id": "assets/page-prompt.template.md",
+      "path": "assets/page-prompt.template.md",
+      "sha256": "8ad146256559cf5c7c503b43fbcfe64680dc0dc5ac89d6020b1890b7b4c97b19",
+      "task_tags": [
+        "tutorial",
+        "production"
+      ],
+      "required": true,
+      "source": "CURATED_RELEASE_1.1.0"
+    },
+    {
+      "id": "assets/review.template.json",
+      "path": "assets/review.template.json",
+      "sha256": "0aa7f31737c388036540091fc5b81f450f1876b385215c24b44685c771911c0c",
+      "task_tags": [
+        "tutorial",
+        "production",
+        "review"
+      ],
+      "required": true,
+      "source": "CURATED_RELEASE_1.1.0"
+    },
+    {
+      "id": "assets/step-plan.template.json",
+      "path": "assets/step-plan.template.json",
+      "sha256": "16eb518a81d0fc37dcaed3b766d4a9e3ec87e647d99b68b6188da8d8212eed60",
+      "task_tags": [
+        "tutorial",
+        "planning"
+      ],
+      "required": true,
+      "source": "CURATED_RELEASE_1.1.0"
+    },
+    {
+      "id": "assets/原稿风格与画法资料.template.xlsx",
+      "path": "assets/原稿风格与画法资料.template.xlsx",
+      "sha256": "c40c5fb2af24f041ad7c3c2ea71f61ee6249d238dcb6045b94e4fb70b9ed7efa",
+      "task_tags": [
+        "delivery"
+      ],
+      "required": true,
+      "source": "CURATED_RELEASE_1.1.0"
+    },
+    {
+      "id": "scripts/_contract.py",
+      "path": "scripts/_contract.py",
+      "sha256": "1719fea66ebd288148d792884b98c24924b06800420142f8cdf0b876b50743fb",
+      "task_tags": [
+        "analysis",
+        "planning",
+        "review",
+        "delivery",
+        "routing",
+        "psd"
+      ],
+      "required": false,
+      "source": "CURATED_RELEASE_1.1.0"
+    },
+    {
+      "id": "scripts/build_workbook.py",
+      "path": "scripts/build_workbook.py",
+      "sha256": "6c67750f46d2fe049bfcbcd81a83bc7d8fb47c45b40afe80a13b9d8463224ab2",
+      "task_tags": [
+        "delivery"
+      ],
+      "required": false,
+      "source": "CURATED_RELEASE_1.1.0"
+    },
+    {
+      "id": "scripts/inspect_input.py",
+      "path": "scripts/inspect_input.py",
+      "sha256": "e31fb02f0ba7a0e943edb97f1ef89b8124e423b1ba99eb5629dad937ed8e3048",
+      "task_tags": [
+        "analysis"
+      ],
+      "required": false,
+      "source": "CURATED_RELEASE_1.1.0"
+    },
+    {
+      "id": "scripts/inspect_psd.py",
+      "path": "scripts/inspect_psd.py",
+      "sha256": "98baa94f32d4507633fd43e98ea5342f546ab4efaeb7ed7cc5b2640a84ab85c0",
+      "task_tags": [
+        "psd"
+      ],
+      "required": false,
+      "source": "CURATED_RELEASE_1.1.0"
+    },
+    {
+      "id": "scripts/package_delivery.py",
+      "path": "scripts/package_delivery.py",
+      "sha256": "8edd040761f47585d5883f08022712ec0c045d3fe1b1f3f37644dbb203221ee5",
+      "task_tags": [
+        "delivery"
+      ],
+      "required": false,
+      "source": "CURATED_RELEASE_1.1.0"
+    },
+    {
+      "id": "scripts/select_assets.py",
+      "path": "scripts/select_assets.py",
+      "sha256": "ccea199649687c3d435d8c5d8ecace94f22a22f7ac56a4d0235a6a8cb09bcd44",
+      "task_tags": [
+        "routing"
+      ],
+      "required": false,
+      "source": "CURATED_RELEASE_1.1.0"
+    },
+    {
+      "id": "scripts/tests/test_delivery.py",
+      "path": "scripts/tests/test_delivery.py",
+      "sha256": "08cd9b6aa2464e2a0f4089daea73409542e0a47cbe9c80f616f727d70f095bd4",
+      "task_tags": [],
+      "required": false,
+      "source": "CURATED_RELEASE_1.1.0"
+    },
+    {
+      "id": "scripts/validate_plan.py",
+      "path": "scripts/validate_plan.py",
+      "sha256": "cb0db0d643b23860f969788e95be16b5e2e6df6f79202958e8eadf0d272c2db4",
+      "task_tags": [
+        "planning"
+      ],
+      "required": false,
+      "source": "CURATED_RELEASE_1.1.0"
+    },
+    {
+      "id": "scripts/verify_pages.py",
+      "path": "scripts/verify_pages.py",
+      "sha256": "8a193c1fa05620f4799b41c78011edd92e3a0191c75aaedd7df22b1a9aa8e921",
+      "task_tags": [
+        "review",
+        "delivery"
+      ],
+      "required": false,
+      "source": "CURATED_RELEASE_1.1.0"
+    },
+    {
+      "id": "sources/AUDIT.json",
+      "path": "sources/AUDIT.json",
+      "sha256": "d141bed40e73fe49f8851700d6d9bbd5e1d6d535ab6431ee635ec2028b789c98",
+      "task_tags": [],
+      "required": false,
+      "source": "CURATED_RELEASE_1.1.0"
+    },
+    {
+      "id": "sources/REGISTRY.json",
+      "path": "sources/REGISTRY.json",
+      "sha256": "b0ccba1ebc05e313b63d68ee12adc9713fd069a13d6ea789550083386ecce7dd",
+      "task_tags": [
+        "routing"
+      ],
+      "required": false,
+      "source": "CURATED_RELEASE_1.1.0"
+    },
+    {
+      "id": "LICENSES/ADAPTATION.md",
+      "path": "LICENSES/ADAPTATION.md",
+      "sha256": "d473bb6515152c3587f36f958c0e50b5d5319e188a7b59634eb0826f5e44efa3",
+      "task_tags": [],
+      "required": false,
+      "source": "CURATED_RELEASE_1.1.0"
+    },
+    {
+      "id": "LICENSES/baoyu-skills-MIT.txt",
+      "path": "LICENSES/baoyu-skills-MIT.txt",
+      "sha256": "601839401f6ce68b7a8aec0f7ba247ab8ef0848113378220bec4b2615cc84ee7",
+      "task_tags": [],
+      "required": false,
+      "source": "CURATED_RELEASE_1.1.0"
+    },
+    {
+      "id": "LICENSES/psd-tools-MIT.txt",
+      "path": "LICENSES/psd-tools-MIT.txt",
+      "sha256": "79f7e019a30b97542cce6f6482a75ba26771b4204c374fec305dc8cf558d137f",
+      "task_tags": [],
+      "required": false,
+      "source": "CURATED_RELEASE_1.1.0"
+    }
+  ]
+}

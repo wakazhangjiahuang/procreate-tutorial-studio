@@ -1,0 +1,428 @@
+{
+  "schema_version": "1.1.0",
+  "work_type": "ARTWORK_TUTORIAL",
+  "source": {
+    "id": "artwork_master",
+    "title": "",
+    "path": "",
+    "sha256": "",
+    "process_evidence": "REASONED"
+  },
+  "delivery": {
+    "count": 10,
+    "width": 3072,
+    "height": 4096,
+    "format": "PNG",
+    "color_space": "sRGB",
+    "background": "#FFFFFF"
+  },
+  "generation": {
+    "tool": "",
+    "model": "",
+    "resolution_method": "",
+    "limitations": ""
+  },
+  "visual_dna": [
+    {
+      "dimension": "时代风格",
+      "region": "",
+      "observation": "",
+      "evidence": "INFERRED",
+      "confidence": "",
+      "teaching_effect": ""
+    },
+    {
+      "dimension": "笔触",
+      "region": "",
+      "observation": "",
+      "evidence": "INFERRED",
+      "confidence": "",
+      "teaching_effect": ""
+    },
+    {
+      "dimension": "线条",
+      "region": "",
+      "observation": "",
+      "evidence": "INFERRED",
+      "confidence": "",
+      "teaching_effect": ""
+    },
+    {
+      "dimension": "轮廓",
+      "region": "",
+      "observation": "",
+      "evidence": "INFERRED",
+      "confidence": "",
+      "teaching_effect": ""
+    },
+    {
+      "dimension": "上色",
+      "region": "",
+      "observation": "",
+      "evidence": "INFERRED",
+      "confidence": "",
+      "teaching_effect": ""
+    },
+    {
+      "dimension": "画法过程",
+      "region": "",
+      "observation": "",
+      "evidence": "INFERRED",
+      "confidence": "",
+      "teaching_effect": ""
+    },
+    {
+      "dimension": "构图留白",
+      "region": "",
+      "observation": "",
+      "evidence": "INFERRED",
+      "confidence": "",
+      "teaching_effect": ""
+    }
+  ],
+  "palette": [],
+  "brushes": [],
+  "sources": [],
+  "operations": [],
+  "steps": [
+    {
+      "id": "01",
+      "type": "step",
+      "filename": "",
+      "action_type": "DRAW",
+      "learning_goal": "",
+      "preconditions": [
+        ""
+      ],
+      "region": "",
+      "layer_action": "",
+      "brush_id": "",
+      "brush_behavior": "",
+      "operation": "",
+      "visible_delta": "",
+      "state_after": "",
+      "completion_check": "",
+      "operation_ids": [],
+      "source_basis": [],
+      "process_evidence": "REASONED",
+      "setting_evidence": "PROPOSED",
+      "view": "",
+      "references": [
+        "artwork_master"
+      ],
+      "white_regions": [],
+      "display_text": {
+        "title": "",
+        "action": "",
+        "brush_note": "",
+        "check": ""
+      }
+    },
+    {
+      "id": "02",
+      "type": "step",
+      "filename": "",
+      "action_type": "DRAW",
+      "learning_goal": "",
+      "preconditions": [
+        ""
+      ],
+      "region": "",
+      "layer_action": "",
+      "brush_id": "",
+      "brush_behavior": "",
+      "operation": "",
+      "visible_delta": "",
+      "state_after": "",
+      "completion_check": "",
+      "operation_ids": [],
+      "source_basis": [],
+      "process_evidence": "REASONED",
+      "setting_evidence": "PROPOSED",
+      "view": "",
+      "references": [
+        "artwork_master",
+        "01"
+      ],
+      "white_regions": [],
+      "display_text": {
+        "title": "",
+        "action": "",
+        "brush_note": "",
+        "check": ""
+      }
+    },
+    {
+      "id": "03",
+      "type": "step",
+      "filename": "",
+      "action_type": "DRAW",
+      "learning_goal": "",
+      "preconditions": [
+        ""
+      ],
+      "region": "",
+      "layer_action": "",
+      "brush_id": "",
+      "brush_behavior": "",
+      "operation": "",
+      "visible_delta": "",
+      "state_after": "",
+      "completion_check": "",
+      "operation_ids": [],
+      "source_basis": [],
+      "process_evidence": "REASONED",
+      "setting_evidence": "PROPOSED",
+      "view": "",
+      "references": [
+        "artwork_master",
+        "02"
+      ],
+      "white_regions": [],
+      "display_text": {
+        "title": "",
+        "action": "",
+        "brush_note": "",
+        "check": ""
+      }
+    },
+    {
+      "id": "04",
+      "type": "step",
+      "filename": "",
+      "action_type": "DRAW",
+      "learning_goal": "",
+      "preconditions": [
+        ""
+      ],
+      "region": "",
+      "layer_action": "",
+      "brush_id": "",
+      "brush_behavior": "",
+      "operation": "",
+      "visible_delta": "",
+      "state_after": "",
+      "completion_check": "",
+      "operation_ids": [],
+      "source_basis": [],
+      "process_evidence": "REASONED",
+      "setting_evidence": "PROPOSED",
+      "view": "",
+      "references": [
+        "artwork_master",
+        "03"
+      ],
+      "white_regions": [],
+      "display_text": {
+        "title": "",
+        "action": "",
+        "brush_note": "",
+        "check": ""
+      }
+    },
+    {
+      "id": "05",
+      "type": "step",
+      "filename": "",
+      "action_type": "DRAW",
+      "learning_goal": "",
+      "preconditions": [
+        ""
+      ],
+      "region": "",
+      "layer_action": "",
+      "brush_id": "",
+      "brush_behavior": "",
+      "operation": "",
+      "visible_delta": "",
+      "state_after": "",
+      "completion_check": "",
+      "operation_ids": [],
+      "source_basis": [],
+      "process_evidence": "REASONED",
+      "setting_evidence": "PROPOSED",
+      "view": "",
+      "references": [
+        "artwork_master",
+        "04"
+      ],
+      "white_regions": [],
+      "display_text": {
+        "title": "",
+        "action": "",
+        "brush_note": "",
+        "check": ""
+      }
+    },
+    {
+      "id": "06",
+      "type": "step",
+      "filename": "",
+      "action_type": "DRAW",
+      "learning_goal": "",
+      "preconditions": [
+        ""
+      ],
+      "region": "",
+      "layer_action": "",
+      "brush_id": "",
+      "brush_behavior": "",
+      "operation": "",
+      "visible_delta": "",
+      "state_after": "",
+      "completion_check": "",
+      "operation_ids": [],
+      "source_basis": [],
+      "process_evidence": "REASONED",
+      "setting_evidence": "PROPOSED",
+      "view": "",
+      "references": [
+        "artwork_master",
+        "05"
+      ],
+      "white_regions": [],
+      "display_text": {
+        "title": "",
+        "action": "",
+        "brush_note": "",
+        "check": ""
+      }
+    },
+    {
+      "id": "07",
+      "type": "step",
+      "filename": "",
+      "action_type": "DRAW",
+      "learning_goal": "",
+      "preconditions": [
+        ""
+      ],
+      "region": "",
+      "layer_action": "",
+      "brush_id": "",
+      "brush_behavior": "",
+      "operation": "",
+      "visible_delta": "",
+      "state_after": "",
+      "completion_check": "",
+      "operation_ids": [],
+      "source_basis": [],
+      "process_evidence": "REASONED",
+      "setting_evidence": "PROPOSED",
+      "view": "",
+      "references": [
+        "artwork_master",
+        "06"
+      ],
+      "white_regions": [],
+      "display_text": {
+        "title": "",
+        "action": "",
+        "brush_note": "",
+        "check": ""
+      }
+    },
+    {
+      "id": "08",
+      "type": "step",
+      "filename": "",
+      "action_type": "DRAW",
+      "learning_goal": "",
+      "preconditions": [
+        ""
+      ],
+      "region": "",
+      "layer_action": "",
+      "brush_id": "",
+      "brush_behavior": "",
+      "operation": "",
+      "visible_delta": "",
+      "state_after": "",
+      "completion_check": "",
+      "operation_ids": [],
+      "source_basis": [],
+      "process_evidence": "REASONED",
+      "setting_evidence": "PROPOSED",
+      "view": "",
+      "references": [
+        "artwork_master",
+        "07"
+      ],
+      "white_regions": [],
+      "display_text": {
+        "title": "",
+        "action": "",
+        "brush_note": "",
+        "check": ""
+      }
+    },
+    {
+      "id": "09",
+      "type": "step",
+      "filename": "",
+      "action_type": "DRAW",
+      "learning_goal": "",
+      "preconditions": [
+        ""
+      ],
+      "region": "",
+      "layer_action": "",
+      "brush_id": "",
+      "brush_behavior": "",
+      "operation": "",
+      "visible_delta": "",
+      "state_after": "",
+      "completion_check": "",
+      "operation_ids": [],
+      "source_basis": [],
+      "process_evidence": "REASONED",
+      "setting_evidence": "PROPOSED",
+      "view": "",
+      "references": [
+        "artwork_master",
+        "08"
+      ],
+      "white_regions": [],
+      "display_text": {
+        "title": "",
+        "action": "",
+        "brush_note": "",
+        "check": ""
+      }
+    },
+    {
+      "id": "10",
+      "type": "step",
+      "filename": "",
+      "action_type": "DRAW",
+      "learning_goal": "",
+      "preconditions": [
+        ""
+      ],
+      "region": "",
+      "layer_action": "",
+      "brush_id": "",
+      "brush_behavior": "",
+      "operation": "",
+      "visible_delta": "",
+      "state_after": "",
+      "completion_check": "",
+      "operation_ids": [],
+      "source_basis": [],
+      "process_evidence": "REASONED",
+      "setting_evidence": "PROPOSED",
+      "view": "",
+      "references": [
+        "artwork_master",
+        "09"
+      ],
+      "white_regions": [],
+      "display_text": {
+        "title": "",
+        "action": "",
+        "brush_note": "",
+        "check": ""
+      }
+    }
+  ]
+}
